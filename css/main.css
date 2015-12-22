@@ -1,0 +1,94 @@
+
+* {
+	color:#bcbbbb;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.row {
+	width: 100%;
+	margin:0.5em;
+}
+
+img,
+embed,
+object,
+video {
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+h1 {
+	font-weight: 200;
+	color:#747704;
+}
+
+h3 {
+	font-weight:350;
+	color:gray;
+	margin: 0;
+	border: 0;
+	padding: 3px;
+}
+
+h6 {
+	color:#747704;
+}
+
+a {
+	font-size: 0.5em;
+	color:#bcbbbb;
+	border: 0;
+	margin:0;
+	padding:0;
+}
+
+/* Seeting breakingpoints for different resolution*/
+
+/* .circle class is used to maintain the circular logo
+ on the top left hand side of the page */
+
+@media screen and (max-width: 600px) {
+	.circle {
+		border: 8px solid #f8981c;
+		width: 107px;
+		height: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		display: table-cell;
+		text-align: center;
+		vertical-align: middle;
+		padding-left: 20%;
+	}
+}
+
+
+@media screen and (min-width: 601px) {
+	.circle {
+		border: 8px solid #f8981c;
+		width: 100px;
+		height: 100px;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		display: table-cell;
+	  	text-align: center;
+	  	vertical-align: middle;
+	  	padding-left: 20%;
+	}
+}
+
+
+
+
